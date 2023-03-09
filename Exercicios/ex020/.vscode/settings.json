@@ -1,0 +1,6 @@
+{
+    "editor.wordWrap": "on",
+    "editor.language.brackets": [],
+    "diffEditor.wordWrap": "on",
+    "files.autoSave": "onFocusChange"
+}
