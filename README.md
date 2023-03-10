@@ -3,4 +3,4 @@
 
 
 estou aprendendo git e GitHub e vou gerenciar meus repositórios.
-<a href = "https://github.com/luhlms/html-css/tree/main/desafios/d010">
+<a href = "https://github.com/luhlms/html-css/tree/main/desafios/d010"> acesse meu repositorio Git.
