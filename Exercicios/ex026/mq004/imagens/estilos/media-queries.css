@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/* todas as medias */ 
+/* Typical Device Breakpoints
+--------------------------------------------------------------------------------
+Phones: 320px -- 480px
+Tablets: 481px -- 768px
+Laptops: 769px -- 980px
+Large Desktops: 981px -- 1200px
+Extra large screens,TV : 1201 >>
+
+*/
+@media print { /*impressao */
+    * {
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 1.5em;
+    }
+    main {
+        border: 1px solid black;
+    }
+    h1 {
+        color: black;
+        text-shadow: none;
+    }
+    img#tel {display: none;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+    img#print {display: block;}
+    img#tab {display: none;}
+}
+@media (min-width: 320px) { /* smartphones, iPhone, portrait 480x320 phones */
+    body {
+        background-image: url(../back-phone.jpg);
+    }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+    body {
+        background-image: url(../back-tablet.jpg);
+    }
+    img#tel {display: none;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+    img#print {display: none;}
+    img#tab {display: block;}
+}
+@media (min-width: 769px) and (max-width:980px){
+    body{
+        background-image: url(../back-pc.jpg);
+    }
+    img#tel {
+        display: none;
+    }
+    img#pc {
+        display: block;
+    }
+    }
+@media (min-width: 981px) and (max-width: 1200px) {
+    body {
+        background-image: url(../back-pc.jpg);
+    }
+    img#tel {
+        display: none;
+    }
+    img#pc {
+        display: block;
+    }
+}
+@media (min-width: 1201px) {
+    body {
+        background-image: url(../back-tv.jpg);
+    }
+    img#tel{
+        display: none;
+    }
+    img#tv {
+        display: block;
+    }
+}
