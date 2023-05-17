@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: lightslategray;
+}
+
+header {
+    background-color: rgba(144, 238, 144, 0.658);
+    text-align: center;
+}
+
+header>h1 {
+    padding: 10px;
+}
+nav {
+    display: none;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+li>a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+li>a:hover {
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.877);
+
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+article>h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+article>p {
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 20px;
+}
+#burg {
+    border-radius: 50%;
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#burg:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
